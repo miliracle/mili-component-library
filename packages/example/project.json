@@ -1,7 +1,7 @@
 {
   "name": "mili-component-library",
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
-  "sourceRoot": "apps/mili-component-library/src",
+  "sourceRoot": "packages/mili-component-library/src",
   "projectType": "application",
   "tags": [],
   "// targets": "to see all targets run: nx show project mili-component-library --web",

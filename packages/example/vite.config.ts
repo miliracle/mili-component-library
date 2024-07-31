@@ -5,7 +5,7 @@ import { nxViteTsPaths } from '@nx/vite/plugins/nx-tsconfig-paths.plugin';
 
 export default defineConfig({
   root: __dirname,
-  cacheDir: '../../node_modules/.vite/apps/mili-component-library',
+  cacheDir: '../../node_modules/.vite/packages/mili-component-library',
 
   server: {
     port: 4200,
@@ -25,7 +25,7 @@ export default defineConfig({
   // },
 
   build: {
-    outDir: '../../dist/apps/mili-component-library',
+    outDir: '../../dist/packages/mili-component-library',
     emptyOutDir: true,
     reportCompressedSize: true,
     commonjsOptions: {
