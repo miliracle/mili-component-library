@@ -8,5 +8,11 @@
       "import": "./index.mjs",
       "require": "./index.js"
     }
+  },
+  "scripts": {
+    "build-design-token": "style-dictionary build --config style-dictionary.config.json"
+  },
+  "dependencies": {
+    "style-dictionary": "^3.0.1"
   }
 }
